@@ -1,0 +1,10 @@
+create blank query
+
+In formula bar type #date(yyyy, m, d), press enter
+
+Click on fx and type below 
+= List.Dates (Source, Number.From(DateTime.LocalNow()) - Number.From(Source), #duration(1,0,0,0))
+
+convert to table
+
+add other date fields from add column/date dropdown
